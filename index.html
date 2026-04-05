@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeyas C | Remote Sensing & Space Technology</title>
+    <meta name="description" content="Portfolio of Jeyas C: Focus on Space Technology, Earth Observation, and Remote Sensing.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Interstellar Background -->
+    <div id="interstellar-bg"></div>
+    <div id="bg-overlay"></div>
+    <!-- Interactive Canvas Stars -->
+    <canvas id="space-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="nav-content">
+            <div class="logo">Jeyas<span class="highlight">C.</span></div>
+            <div class="mobile-menu-toggle" id="mobile-menu">
+                <i class="ph ph-list"></i>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">Overview</a></li>
+                <li><a href="#experience">Missions</a></li>
+                <li><a href="#skills">Systems</a></li>
+                <li><a href="https://www.linkedin.com/in/jeyas-c" target="_blank" class="cyber-btn">Contact <i class="ph ph-arrow-up-right"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="fullscreen">
+            <div class="hero-content">
+                <p class="subtitle_premium">D E E P  S P A C E  I N I T I A T I V E</p>
+                <h1 class="premium-title">Jeyas C.</h1>
+                <div class="typewriter-container">
+                    <span id="typewriter"></span><span class="cursor">_</span>
+                </div>
+                <div class="hero-actions">
+                    <a href="#experience" class="cyber-btn primary">View Operations</a>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <div class="mouse"></div>
+                <p>DESCEND</p>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="container reveal">
+            <h2 class="section-title"><span>01</span> OVERVIEW</h2>
+            <div class="about-grid">
+                <div class="glass-panel profile-card">
+                    <img src="assets/my_photo.jpg" alt="Jeyas C" class="profile-img">
+                    <h3>Jeyas C</h3>
+                    <p class="designation">Mechanical Engineer & GIS Expert</p>
+                    <p class="location"><i class="ph ph-map-pin"></i> Kannur, Kerala</p>
+                    <div class="status-indicator">
+                        <span class="dot"></span> Online
+                    </div>
+                </div>
+                <div class="glass-panel about-text">
+                    <h3>Focus & Drive</h3>
+                    <p>A determined and curious individual with a strong sense of purpose, focused on blending space technology with real-world impact. Passionate about unlocking the secrets of the Earth from orbit.</p>
+                    <div class="education-block">
+                        <h4><i class="ph ph-graduation-cap"></i> Academic Pathway</h4>
+                        <p><strong>Government College Of Engineering Kannur (GCEK)</strong></p>
+                        <p>B.Tech, Expected Graduation 2027</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section (Missions) -->
+        <section id="experience" class="container reveal">
+            <h2 class="section-title"><span>02</span> ACTIVE MISSIONS</h2>
+            
+            <div class="missions-featured">
+                <div class="glass-panel featured-mission">
+                    <img src="assets/satellite.png" alt="Earth Observation Satellite" class="mission-img">
+                    <div class="featured-mission-text">
+                        <h3>Earth Intelligence</h3>
+                        <p>Working to extract vast amounts of actionable data using remote sensing arrays and convolutional neural networks.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline">
+                
+                <!-- Zeta Space -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="glass-panel timeline-content">
+                        <div class="mission-header">
+                            <h3>Remote Sensing Intern</h3>
+                            <span class="badge">Zeta Space</span>
+                        </div>
+                        <ul class="mission-logs">
+                            <li><i class="ph ph-circle"></i> Contributed to <strong>"Watchman"</strong>: an Earth Intelligence Platform providing satellite-based insights.</li>
+                            <li><i class="ph ph-circle"></i> Involved in <strong>"Launchpad"</strong>: advancing space education initiatives for students.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Calypso GCEK -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="glass-panel timeline-content">
+                        <div class="mission-header">
+                            <h3>Secretary (EXECOM 2026-2027)</h3>
+                            <span class="badge">Calypso GCEK</span>
+                        </div>
+                        <ul class="mission-logs">
+                            <li><i class="ph ph-circle"></i> Spearheaded outreach programs to promote science, technology, and space exploration on campus.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- UL Space Club -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="glass-panel timeline-content">
+                        <div class="mission-header">
+                            <h3>Workshop Lead</h3>
+                            <span class="badge">UL Space Club</span>
+                        </div>
+                        <ul class="mission-logs">
+                            <li><i class="ph ph-circle"></i> Led the "Unlocking Earth" satellite data workshop at Cyberpark, Kozhikode.</li>
+                            <li><i class="ph ph-circle"></i> Taught students core concepts of Remote Sensing and GIS.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Hackathon -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="glass-panel timeline-content">
+                        <div class="mission-header">
+                            <h3>Project Contributor</h3>
+                            <span class="badge">Bharath Antariksh Hackathon</span>
+                        </div>
+                        <ul class="mission-logs">
+                            <li><i class="ph ph-circle"></i> Developed a predictive model using CNN (Convolutional Neural Networks) for landslide detection.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="container reveal">
+            <h2 class="section-title"><span>03</span> SYSTEM CAPABILITIES</h2>
+            <div class="skills-grid">
+                <div class="skill-card glass-panel">
+                    <i class="ph ph-planet"></i>
+                    <h4>Space Tech</h4>
+                    <p>Aerospace Innovation</p>
+                </div>
+                <div class="skill-card glass-panel">
+                    <i class="ph ph-radar"></i>
+                    <h4>Observation</h4>
+                    <p>Remote Sensing & Data</p>
+                </div>
+                <div class="skill-card glass-panel">
+                    <i class="ph ph-globe-hemisphere-west"></i>
+                    <h4>GIS</h4>
+                    <p>Geographic Systems</p>
+                </div>
+                <div class="skill-card glass-panel">
+                    <i class="ph ph-brain"></i>
+                    <h4>CNN Models</h4>
+                    <p>Disaster Management</p>
+                </div>
+                <div class="skill-card glass-panel">
+                    <i class="ph ph-kanban"></i>
+                    <h4>Operations</h4>
+                    <p>Management & Strategy</p>
+                </div>
+                <div class="skill-card glass-panel">
+                    <i class="ph ph-users"></i>
+                    <h4>Leadership</h4>
+                    <p>Outreach & Education</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass-footer">
+        <div class="footer-content">
+            <div class="footer-logo">Jeyas<span class="highlight">C.</span></div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/jeyas-c" target="_blank"><i class="ph ph-linkedin-logo"></i></a>
+                <a href="mailto:hello@jeyasc.com"><i class="ph ph-envelope-simple"></i></a>
+            </div>
+            <p class="copyright">© 2026 JEYAS C. EXPLORING NEW FRONTIERS.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
