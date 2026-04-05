@@ -493,15 +493,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .mission-logs li {
     margin-bottom: 1rem;
-    display: flex;
-    gap: 15px;
-    align-items: flex-start;
+    position: relative;
+    padding-left: 25px;
     color: var(--text-muted);
 }
 
 .mission-logs i {
+    position: absolute;
+    left: 0;
+    top: 6px;
     color: var(--accent-blue);
-    margin-top: 5px;
     font-size: 0.8rem;
 }
 
